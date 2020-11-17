@@ -1,0 +1,15 @@
+/* Criar a tabela da sua biblioteca particular */
+CREATE TABLE livros (
+id INT auto_increment PRIMARY KEY,
+titulo text,
+autor text,
+isbn varchar (50),
+edicao varchar (50),
+editora varchar(50),
+anoPublicacao year,
+qtdePaginas int,
+genero ENUM ('antologia', 'autoajuda', 'biográfico', 'científicos', 'contos', 'crônicas', 'didáticos', 'ficção','guias','infatojuvenis','manuais',),
+prateleira ENUM ('cabeceira','clássicos', 'contabilidade', 'de bolso', 'hq', 'mangá', 'marxistas', 'modernidade', 'negócios', 'trabalho', economia', weberianos'
+idioma varchar(50),
+adquiridoData
+status ENUM ('li', 'lendo', 'relendo', 'abandonado', 'emprestado');

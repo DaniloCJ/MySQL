@@ -32,8 +32,8 @@ CREATE TABLE livros (
     'modernidade',
     'negócios',
     'trabalho',
-    economia',
-    weberianos'
+	'economia',
+    'weberianos'
     ),
   idioma varchar(50),
   adquiridoData date,
